@@ -1,3 +1,5 @@
+# build example
+gcc -o examples/modbus_example examples/modbus_example.c -I./src -L./src/.libs -lmodbus
 # A groovy modbus library
 
 ![Build Status](https://github.com/stephane/libmodbus/actions/workflows/build.yml/badge.svg)
